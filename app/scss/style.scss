@@ -2,8 +2,42 @@
 @import "libs";
 @import "fonts";
 
+.header__slider{
+    &-item{
+        height: 100vh;
+        background-image: url(../img/header-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+}
+.header__slider-info{
+    position: absolute;
+    right: 80px;
+    bottom: 116px;
+    text-align: right;
+    color: #fff;
+    text-transform: uppercase;
+}
+.header__slider-info-suptitle{
+    margin-bottom: 5px;
+}
+.header__slider-info-suptext{
+    margin-bottom: 8px;
+}
+.header__slider-info-title{
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 86px;
+    margin-bottom: 48px;
+}
+.header__slider-info-text{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 86px;
+    margin-bottom: 20px;
+}
 
-
-
-
+@import "global";
 @import "media";
